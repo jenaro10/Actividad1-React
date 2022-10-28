@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+  background-size: 100%;
+}
+
+table {
+  background-color: white;
+  border-collapse: collapse;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+table thead {
+  background-color: rgb(50, 122, 230);
+}
+
+
+tr:hover {
+  background-color: blue;
+  color: white;
+}
+
+#main-container {
+  margin: 20px auto;
+  width: 1000px;
+}
+
+header {
+ 
+  margin-left: 5%;
+  margin-right: 5%;
+}
