@@ -40,11 +40,12 @@ setPersonaSeleccionada(elemento);
 
   const editar=()=>{
     var dataNueva=data;
-    dataNueva.map(persona=>{
+    dataNueva.map((persona)=>{
       if(persona.id===personaSeleccionada.id){
         persona.apellido=personaSeleccionada.apellido;
         persona.nombre=personaSeleccionada.nombre;
       }
+      return persona
     });
     setData(dataNueva);
     setModalEditar(false);
